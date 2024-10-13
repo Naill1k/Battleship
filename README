@@ -1,4 +1,6 @@
-ALINOT Killian
+Projet de bataille navale réalisé dans le cadre du cours de deuxième année d'introduction au langage C de l'Université Côte d'Azur, enseigné par le professeur Olivier Baldellon.
+
+La suite décrit les modifications apportées au jeu classique de la bataille navale.
 
 Règles ajoutées :
 	- Un bateau touché ne peut pas se déplacer
