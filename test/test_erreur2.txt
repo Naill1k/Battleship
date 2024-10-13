@@ -1,0 +1,3 @@
+Projet 4x4
+J1 P 0-1:0
+J2 P 3:1-2  # Erreur car le bateau dépasse dans l'autre moitié du plateau

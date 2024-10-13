@@ -1,0 +1,19 @@
+ALINOT Killian
+
+Règles ajoutées :
+	- Un bateau touché ne peut pas se déplacer
+	- Les bateaux d'un joueur ne peuvent être et se déplacer que dans sa moitié (haute pour J1)
+	- La hauteur du plateau doit être paire
+
+Tous les formats sont implémentés, on peut ajouter J1 ou J2 après Afficher pour afficher le point de vue d'un joueur : la position des bateaux adverses est masquée, mais les bateaux touchés et les mines restent affichées (exemple dans test3.txt).
+
+Pour l'IA : elle tire au hasard jusqu'à trouver un bateau, puis essaye les cases adjacentes et ensuite continue dans la même direction pour couler le bateau.
+
+Le programme empêche les joueurs de placer leurs bateaux dans la moitié adverse ou de s'y déplacer (J1 ne peut les placer que dans la moitié haute).
+Les formats 0 et 1 font une erreur car les bateaux de J1 sont placés dans la moitié basse.
+Dans le format 4, les collisions ne se font pas car les bateaux sont dans deux moitié différentes.
+
+Les fichiers test_erreur1 et test_erreur2 font une erreur car les placements de bateaux sont invalides
+Les autres fichiers test sont des exemples de parties complètes.
+
+Lors d'une partie normale (à 2 joueurs), les lignes entrées sont enregistrées dans un fichier current.txt, pour pouvoir recharger une partie en cours.

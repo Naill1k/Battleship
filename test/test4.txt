@@ -1,0 +1,10 @@
+Projet 5x6
+J1 P 1-2:1
+J2 P 3:3-4
+Jouer
+Afficher
+J1 T 2:4
+J2 T 1:1  # Touché
+J1 H 2:1  # Bateau touché : déplacement impossible
+J2 G 3:3 # Touché : déplacement sur une mine
+J1 T 2:3 # Touché coulé

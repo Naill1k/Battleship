@@ -1,0 +1,28 @@
+Projet 8x12
+J1 P 1-3:0
+J2 P 2-4:10
+J1 P "Croiseur" 1:1-2
+J2 P "Sous-marin" 7:7-8
+J1 P 3-4:4
+J2 P 1-2:7
+Jouer
+Afficher J1
+J1 T 2:10 # Touché
+Afficher J2
+J2 D "Sous-marin"  # Déplacement impossible
+Afficher J2
+J1 H "Croiseur"  # Collision du Croiseur
+J2 T 1:2  # Coulé
+Afficher J1
+J1 T 2:8  # Raté
+J2 T 3:4  # Touché
+J1 T 3:10
+J2 B 1:7  # Touché
+Afficher J1
+J1 T 4:10  # Touché, coulé
+J2 T 4:4  # Touché, coulé
+J1 T 1:8  # Coulé
+Afficher J2
+J2 T 2:0 # Touché
+J1 T 5:7
+J2 T 3:0 # Victoire de J2
